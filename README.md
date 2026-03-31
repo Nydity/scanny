@@ -12,5 +12,5 @@ Make sure to fill out `example.env` with your shit, then rename it to `.env`
 
 Wanna start the bot? Run this
 ```bash
-python bot.py
+python3 bot.py
 ```
