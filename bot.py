@@ -93,7 +93,7 @@ def detect_image_numpy(image_bytes: bytes) -> dict:
 
 
 async def handle_detection(message: discord.Message, result: dict):
-    """Delete message, assign role, and log detection."""
+    """Delete message, assign role, and log detection"""
     try:
         await message.delete()
         await message.channel.send(
