@@ -1,16 +1,40 @@
-# scanny
-Really shit python image scanner for the stupid scams 😜 (discord.py)
+# Scanny
 
-### Installation
+Really shit python image scanner for the stupid scams 😜 (discord.py).
 
-Run this or the bot will literally do nothing:
-```python 
-pip install discord.py Pillow ImageHash aiohttp python-dotenv
+## Installation
+
+Python 3.11+ recommended.
+
+Third-party packages:
+
+```txt
+aiohttp>=3.8.5
+discord.py>=2.6.0
+python-dotenv>=1.0.0
+Pillow>=10.0.0
+ImageHash>=4.3.1
+numpy>=1.26.0
 ```
 
-Make sure to fill out `example.env` with your shit, then rename it to `.env`
+Install with:
 
-Wanna start the bot? Run this
+```python 
+pip install -r requirements.txt
+```
+
+## Configuration
+
+Fill out `example.env` with your configuration and rename it to `.env`.
+
+## Running the Bot
+
+Invoke python with `bot.py`:
+
 ```bash
 python3 bot.py
 ```
+
+## License
+
+Scanny is licensed under the MIT license. See [LICENSE](./LICENSE).
