@@ -18,8 +18,8 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 HASH_FILE = os.getenv("HASH_FILE", "banned_hashes.json")
 LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID"))
 BANNED_ROLE_ID = int(os.getenv("BANNED_ROLE_ID"))
-THRESHOLD_8 = os.getenv("THRESHOLD_8", 5)
-THRESHOLD_16 = os.getenv("THRESHOLD_16", 12)
+THRESHOLD_8 = int(os.getenv("THRESHOLD_8", 5))
+THRESHOLD_16 = int(os.getenv("THRESHOLD_16", 12))
 
 # Bot setup
 intents = discord.Intents.default()
